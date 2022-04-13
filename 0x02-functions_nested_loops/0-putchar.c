@@ -2,7 +2,7 @@
 /**
  * main-main block
  *
- * Description:print _putchar in a new line 
+ * Description:print _putchar in a new line
  *
  * Return: Always 0 (Success)
 */
