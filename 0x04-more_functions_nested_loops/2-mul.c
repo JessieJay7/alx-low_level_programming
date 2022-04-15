@@ -2,16 +2,14 @@
 
 /**
  *
- * mul - returns the product of its parameters
+ * mul - multiplies two integers
  *
- * @a: int type number
+ * @a: first number
  *
- * @b: int type number
+ * @b: second number
  *
- * Return:0
- *
+ * Return: multiplacation
 */
-
 int mul(int a, int b)
 {
 return (a * b);

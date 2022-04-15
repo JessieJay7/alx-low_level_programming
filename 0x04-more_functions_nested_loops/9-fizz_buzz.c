@@ -1,34 +1,34 @@
 #include <stdio.h>
 /**
- * main - prints the numbers from 1 to 100, followed by a new line, prints print 	- Fizz for multiples of three, print Buzz for multiples of five, print F	- izzBuzz for multiples of both three and five.
+ * main - prints Fizz fir int divisible by 3 and Buzz for int divisible by 5
  *
  * Return: void.
 */
 int main(void)
 {
-int i = 1;
-while (i <= 100)
+int i;
+for (i = 1; i <=100; i++)
 {
-if (i % 3 == 0 && i % 5 == 0)
-{
-printf("FizzBuzz");
-}
-else if (i % 3 == 0)
+if (i % 3 == 0 && i % 5 != 0)
 {
 printf("Fizz");
 }
-else if (i % 5 == 0)
+else if (i % 3 != 0 && i % 5 == 0)
 {
-printf("Buzz");									}
+printf("Buzz");
+}
+else if (i % 3 == 0 && i % 5 == 0)
+{
+printf("FizzBuzz");
+}
 else
 {
-printf("%i", i);
+printf("%d", i);
 }
 if (i != 100)
 {
 putchar(' ');
-}
-i++;
-}
+else
 putchar('\n');
 return (0);
+}
