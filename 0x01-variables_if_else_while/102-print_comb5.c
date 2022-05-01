@@ -4,23 +4,27 @@
  * main - Prints the numbers from 0 to 99
  *
  * Return: Always (Success)
- *
 */
 int main(void)
 
 {
-int c, i;
-c = i = '0';
-for (c = '0'; c <= '9'; c++)
+int i, j;
+for (i = 0; i < 100; i++)
 {
-for (i = '0'; i <= '9'; i++)
+for (j = 0; j < 100; j++)
 {
-putchar(c);
-putchar(i);
-if ((c != '9') || (c == '9' && i != '9'))
+if (i < j)
+{
+putchar((i / 10) + '0');
+putchar((i % 10) + '0');
+putchar(' ');
+putchar((j / 10) + '0');
+putchar((j % 10) + '0');
+if (i != 98 || j != 99)
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
