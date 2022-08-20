@@ -1,6 +1,6 @@
 /*
  * File: 100-sorted_hash_table.c
- * Auth: Bright
+ * Auth: Gifty
  */
 
 #include "hash_tables.h"

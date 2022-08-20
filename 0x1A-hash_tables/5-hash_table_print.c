@@ -1,6 +1,6 @@
 /*
  * File: 5-hash_table_print.c
- * Auth: Bright
+ * Auth: Gifty
 */
 
 #include "hash_tables.h"

@@ -1,6 +1,6 @@
 /*
  * File: 1-djb2.c
- * Auth: Bright
+ * Auth: Gifty
  */
 
 #include "hash_tables.h"

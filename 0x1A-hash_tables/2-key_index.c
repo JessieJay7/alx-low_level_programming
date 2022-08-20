@@ -1,6 +1,6 @@
 /*
  * File: 2-key_index.c
- * Auth: Bright
+ * Auth: Gifty
 */
 
 #include "hash_tables.h"
